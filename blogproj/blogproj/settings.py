@@ -130,6 +130,5 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-CRISPY_TEMPLATE_PACK = "bootstrap6"
-MEDIA_ROOT = ''
-MEDIA_URL = ''
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+LOGIN_REDIRECT_URL = 'blog-home'
